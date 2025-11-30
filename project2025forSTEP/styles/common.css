@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "kelly slab", fantasy;
+}
+a:visited {
+  color: white;
+}
+
+
+
+/* #region header */
+header {
+  width: 100%;
+  /* height: 20vh; */
+  background-color: black;
+  display: flex;
+}
+.header-right {
+  width: 60%;
+  height: 20vh;
+  /* background-color: blue; */
+  display: flex;
+  gap: 100px;
+  align-items: flex-end;
+}
+.header-right ul {
+  display: flex;
+  gap: 15px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.header-right ul a:hover {
+    transition: 0.6s;
+    color: #ddc000;
+}
+.header-right ul a:active {
+    color: #ddc000;
+}
+.active {
+    color: #ddc000;
+}
+.header-left {
+  width: 40%;
+  height: 20vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+.header-logo {
+  width: 250px;
+  height: 130px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ddc000;
+  font-family: "kelly slab", fantasy ;
+  position: absolute;
+  bottom: -10%;
+  z-index: 9999;
+}
+.header-logo h2 {
+  font-size: 50px;
+  font-weight: 200;
+}
+.header-logo h4 {
+  font-size: 22px;
+  font-weight: 200;
+}
+.header-logo p {
+  font-size: 18px;
+  padding-top: 10px;
+  letter-spacing: 0.6em;
+}
+.borderline1 {
+  width: 193px;
+  height: 2px;
+  background-color: #ddc000;
+}
+.borderline2 {
+  width: 35px;
+  height: 2px;
+  background-color: #ddc000;
+  margin-top: 10px;
+}
+.borderline3 {
+  width: 35px;
+  height: 2px;
+  background-color: #ddc000;
+  margin-top: 10px;
+}
+.header-brewery {
+  display: flex;
+  gap: 8px;
+}
+.header-cart {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.header-cart i {
+    font-size: 20px;
+}
+.header-cart button {
+    color: #ddc000;
+    font-family: "open sans", sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+/* #endregion header */

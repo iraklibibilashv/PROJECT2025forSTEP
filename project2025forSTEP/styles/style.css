@@ -1,114 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  font-family: "kelly slab", fantasy;
+
+main {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
+    background-position: 80% 80%;
+    background-size: cover;
+    position: relative;
 }
-a:visited {
-  color: white;
+
+
+
+
+
+section {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+    top: 62%;
 }
-/* #region header */
-header {
-  width: 100%;
-  /* height: 20vh; */
-  background-color: black;
-  display: flex;
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    position: absolute;
+    top: 82%;
+    border-top: 1px solid white;
 }
-.header-right {
-  width: 60%;
-  height: 20vh;
-  /* background-color: blue; */
-  display: flex;
-  gap: 100px;
-  align-items: flex-end;
+
+
+
+
+
+.chat-section {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    position: absolute;
+    top: 95%;
 }
-.header-right ul {
-  display: flex;
-  gap: 15px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  font-size: 15px;
-}
-.header-right ul a:hover {
-    transition: 0.6s;
-    color: #ddc000;
-}
-.header-right ul a:active {
-    color: #ddc000;
-}
-.active {
-    color: #ddc000;
-}
-.header-left {
-  width: 40%;
-  height: 20vh;
-  /* background-color: red; */
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  position: relative;
-}
-.header-logo {
-  width: 250px;
-  height: 142px;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #ddc000;
-  font-family: "kelly slab", fantasy ;
-  position: absolute;
-  bottom: -10%;
-}
-.header-logo h2 {
-  font-size: 50px;
-}
-.header-logo h4 {
-  font-size: 22px;
-}
-.header-logo p {
-  font-size: 18px;
-  padding-top: 15px;
-  letter-spacing: 0.6em;
-}
-.borderline1 {
-  width: 193px;
-  height: 2px;
-  background-color: #ddc000;
-}
-.borderline2 {
-  width: 35px;
-  height: 2px;
-  background-color: #ddc000;
-  margin-top: 10px;
-}
-.borderline3 {
-  width: 35px;
-  height: 2px;
-  background-color: #ddc000;
-  margin-top: 10px;
-}
-.header-brewery {
-  display: flex;
-  gap: 8px;
-}
-.header-cart {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-.header-cart i {
-    font-size: 20px;
-}
-.header-cart button {
-    color: #ddc000;
-    font-family: "open sans", sans-serif;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 13px;
-}
-/* #endregion header */
