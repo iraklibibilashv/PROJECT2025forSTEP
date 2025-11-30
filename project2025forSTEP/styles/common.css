@@ -30,10 +30,13 @@ header {
 }
 .header-right ul {
   display: flex;
-  gap: 15px;
-  padding-left: 20px;
+  /* gap: 15px; */
+  color: #f3f3f3;
   padding-bottom: 20px;
   font-size: 15px;
+}
+.header-right ul a {
+    padding: 0px 10px;
 }
 .header-right ul a:hover {
     transition: 0.6s;
@@ -70,6 +73,7 @@ header {
 .header-logo h2 {
   font-size: 50px;
   font-weight: 200;
+  cursor: pointer;
 }
 .header-logo h4 {
   font-size: 22px;
@@ -105,6 +109,7 @@ header {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    gap: 5px;
 }
 .header-cart i {
     font-size: 20px;
@@ -117,4 +122,69 @@ header {
     cursor: pointer;
     font-size: 13px;
 }
+.header-cart button:hover {
+    color: #ddc0009f;
+    transition: 0.3s;
+}
 /* #endregion header */
+
+
+
+
+footer {
+  width: 100%;
+  height: 7vh;
+  background-color: black;
+  position: absolute;
+  top: 87%;
+}
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  /* margin-top: 40px; */
+}
+
+.chat-section {
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  position: absolute;
+  top: 98%;
+}
+.footer-sides {
+    display: flex;
+}
+.footer-left {
+    width: 44%;
+    height: 5vh;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.footer-left p {
+    padding-top: 10px;
+    font-family: "open sans", sans-serif;
+}
+.footer-left a {
+    text-decoration: underline;
+}
+.footer-right {
+    width: 56%;
+    height: 5vh;
+    /* background-color: red; */
+    
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-right a {
+    font-size: 24px;
+    color: white;
+}
+.footer-icons {
+    padding-right: 105px;
+    padding-top: 10px;
+}
